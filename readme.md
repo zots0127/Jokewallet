@@ -1,5 +1,5 @@
 
-# Jokewallet 0.1
+# Jokewallet 0.0.4
 You can create a offline wallet and do some operation.
 
 If I have free time I will complete it and make a standalone installer for it~
@@ -50,28 +50,24 @@ But after install python
 You need install ~~these~~ :
 
 
-   ~~pip install os~~
-   ~~pip install ecdsa~~
-   ~~pip install requests~~
-   ~~pip install qrcode_terminal~~
-    You can use pip install it !
+    pip install os
+    pip install ecdsa
+    pip install requests
+    pip install qrcode_terminal
+    
 
 ## Install Jokewallet
 Install Jokewallet:
-    https://pypi.org/manage/project/jokewallet/collaboration/
-    ~~Git clone https://github.com/zots0127/Jokewallet.git ~~
-    ~~cd Jokewallet~~
-    pip install Jokewallet
+    https://pypi.org/manage/project/jokewallet/collaboration/\
+    Git clone https://github.com/zots0127/Jokewallet.git \
+    cd Jokewallet\
+    ~~pip install Jokewallet~~  Will be fixed
 
 ## Usage
 Run Jokewallet:
 
-    python
-    
-    import jokewallet
-
-    start()
-    
+    python jokewallet.py    
+ 
     Then you can use it.
 
 ## License
