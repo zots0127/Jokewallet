@@ -48,7 +48,7 @@ Exit
 ## Install Dependencies
 I don't want to teach how to install python...
 
-But after install python
+But after install python3.7
 
 You need install ~~these~~ :
 
