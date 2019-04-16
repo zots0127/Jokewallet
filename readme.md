@@ -1,5 +1,5 @@
-# Jokewallet
-You can create a offline wallet and do some operation. 0.1
+# Jokewallet 0.1
+You can create a offline wallet and do some operation.
 
 If I have free time I will complete it.
 
