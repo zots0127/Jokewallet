@@ -18,9 +18,10 @@ You need install these:
 
 
 ## Install Jokewallet
-Git clone https://github.com/zots0127/Jokewallet.git
+Run Jokewallet:
 
-cd Jokewallet
+    Git clone https://github.com/zots0127/Jokewallet.git
+    cd Jokewallet
 
 ## Useage
 
