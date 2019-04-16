@@ -46,25 +46,29 @@ I don't want to teach how to install python...
 
 But after install python
 
-You need install these:
+You need install ~~these~~ :
 
-    pip install os
-    pip install ecdsa
-    pip install requests
-    pip install qrcode_terminal
 
+    ~~pip install os~~
+    ~~pip install ecdsa~~
+    ~~pip install requests~~
+    ~~pip install qrcode_terminal~~
+    You can use pip install it !
 
 ## Install Jokewallet
 Install Jokewallet:
-
-    Git clone https://github.com/zots0127/Jokewallet.git
-    cd Jokewallet
+    https://pypi.org/manage/project/jokewallet/collaboration/
+    ~~Git clone https://github.com/zots0127/Jokewallet.git ~~
+    ~~cd Jokewallet~~
+    pip install Jokewallet
 
 ## Usage
 Run Jokewallet:
 
     python jokewallet.py
 
+    start()
+    
     Then you can understand it.
 
 ## License
