@@ -17,6 +17,7 @@ I was trying to use RPC, but I can't connect to my BTC core so change to this wa
 This is my second time use python.
 
 ## Implemented feature
+![Image text](https://raw.github.com/zots0127/repositpry/master/Jokewallet/img/menu.png
 1.Open my wallet       
 
 Use public api query address infomation
@@ -28,6 +29,8 @@ Generate a new key and new address
 3.Show my QR codd     
 
 Use funny terminal qrcode lib show qrcode in terminal,actully it can also  use an api but can't show without GUI
+
+![Image text](https://raw.github.com/zots0127/repositpry/master/Jokewallet/img/feature.png
 
 4.Show my transaction history   
 
@@ -50,26 +53,28 @@ But after install python
 You need install ~~these~~ :
 
 
-    pip install os
+
     pip install ecdsa
     pip install requests
     pip install qrcode_terminal
-    
+
 
 ## Install Jokewallet
 Install Jokewallet:
     https://pypi.org/manage/project/jokewallet/collaboration/
     Git clone https://github.com/zots0127/Jokewallet.git \
-    cd Jokewallet\
+    cd Jokewallet/jokewallet \
     ~~pip install Jokewallet~~  Will be fixed
 
 ## Usage
 Run Jokewallet:
 
     python jokewallet.py    
- 
-    Then you can use it.
+
+    Input a wallet name ,if already exist will open wallet,then you can use it.
+
+    Otherwise create a new wallet.
 
 ## License
 
-I don't know about it. Let it go.
+MIT
