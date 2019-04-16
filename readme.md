@@ -3,9 +3,9 @@ You can create a offline wallet and do some operation. 0.1
 
 If I have free time I will complete it.
 
-I didn't get api still now so I can't do transaction now.
+I didn't get api still now, so I can't do transaction now.
 
-I was try to use RPC but I can't connectied my bitcoin core so change to this way.
+I was trying to use RPC, but I can't connect to my bitcoin core so change to this way.
 
 This is my second time use python.
 
@@ -17,7 +17,7 @@ But after install python
 You need install these:
 
     pip install os
-    pip install ecds
+    pip install ecdsa
     pip install requests
     pip install qrcode_terminal
 
@@ -28,7 +28,7 @@ Install Jokewallet:
     Git clone https://github.com/zots0127/Jokewallet.git
     cd Jokewallet
 
-## Useage
+## Usage
 Run Jokewallet:
 
     python jokewallet.py
