@@ -15,6 +15,32 @@ I was trying to use RPC, but I can't connect to my bitcoin core so change to thi
 
 This is my second time use python.
 
+## Implemented feature
+1.Open my wallet       
+
+Use public api query address infomation
+
+2.Create new wallet    
+
+Generate a new key and new address
+
+3.Show my QR codd     
+
+Use funny terminal qrcode lib show qrcode in terminal,actully it can also  use an api but can't show without GUI
+
+4.Show my transaction history   
+
+Use public api query TX info but if don't have can't get right result
+
+5.Change a wallet
+
+Call another function to change Wallet
+
+0.Exit
+
+Exit
+
+
 ## Install Dependencies
 I don't want to teach how to install python...
 
