@@ -1,0 +1,7 @@
+README.md
+setup.py
+Jokewallet.egg-info/PKG-INFO
+Jokewallet.egg-info/SOURCES.txt
+Jokewallet.egg-info/dependency_links.txt
+Jokewallet.egg-info/requires.txt
+Jokewallet.egg-info/top_level.txt

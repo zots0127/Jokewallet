@@ -1,3 +1,4 @@
+
 # Jokewallet 0.1
 You can create a offline wallet and do some operation.
 
@@ -5,13 +6,13 @@ If I have free time I will complete it and make a standalone installer for it~
 
 Or use Django make a web application and add the private_key protection.
 
-I just know base64 and maybe cut the key and exchange the order？
+I just know base64 and maybe cut the key and exchange the order?
 
 I will learn something about it .
 
 I didn't get transaction api still now, so I can't do transaction now.
 
-I was trying to use RPC, but I can't connect to my bitcoin core so change to this way.
+I was trying to use RPC, but I can't connect to my BTC core so change to this way.
 
 This is my second time use python.
 
@@ -49,10 +50,10 @@ But after install python
 You need install ~~these~~ :
 
 
-    ~~pip install os~~
-    ~~pip install ecdsa~~
-    ~~pip install requests~~
-    ~~pip install qrcode_terminal~~
+   ~~pip install os~~
+   ~~pip install ecdsa~~
+   ~~pip install requests~~
+   ~~pip install qrcode_terminal~~
     You can use pip install it !
 
 ## Install Jokewallet
@@ -65,11 +66,13 @@ Install Jokewallet:
 ## Usage
 Run Jokewallet:
 
-    python jokewallet.py
+    python
+    
+    import jokewallet
 
     start()
     
-    Then you can understand it.
+    Then you can use it.
 
 ## License
 
