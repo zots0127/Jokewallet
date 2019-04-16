@@ -58,7 +58,7 @@ You need install ~~these~~ :
 
 ## Install Jokewallet
 Install Jokewallet:
-    https://pypi.org/manage/project/jokewallet/collaboration/\
+    https://pypi.org/manage/project/jokewallet/collaboration/
     Git clone https://github.com/zots0127/Jokewallet.git \
     cd Jokewallet\
     ~~pip install Jokewallet~~  Will be fixed
