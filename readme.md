@@ -2,6 +2,8 @@
 # Jokewallet 0.0.4
 You can create a offline wallet and do some operation.
 
+##(send() need a privity api but apply it need 3~4days)
+
 If I have free time I will complete it and make a standalone installer for it~
 
 Or use Django make a web application and add the private_key protection.
@@ -12,7 +14,7 @@ I will learn something about it .
 
 I didn't get transaction api still now, so I can't do transaction now.
 
-I was trying to use RPC, but I can't connect to my BTC core so change to this way.
+##I was trying to use RPC, but I can't connect to my BTC core so change to this way.
 
 This is my second time use python.
 
