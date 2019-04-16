@@ -1,9 +1,15 @@
 # Jokewallet 0.1
 You can create a offline wallet and do some operation.
 
-If I have free time I will complete it.
+If I have free time I will complete it and make a standalone installer for it~
 
-I didn't get api still now, so I can't do transaction now.
+Or use Django make a web application and add the private_key protection.
+
+I just know base64 and maybe cut the key and exchange the order？
+
+I will learn something about it .
+
+I didn't get transaction api still now, so I can't do transaction now.
 
 I was trying to use RPC, but I can't connect to my bitcoin core so change to this way.
 
