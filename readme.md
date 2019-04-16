@@ -1,6 +1,8 @@
 # Jokewallet
 You can create a offline wallet and do some operation. 0.1
 
+If I have free time I will complete it.
+
 I didn't get api still now so I can't do transaction now.
 
 I was try to use RPC but I can't connectied my bitcoin core so change to this way.
@@ -21,16 +23,17 @@ You need install these:
 
 
 ## Install Jokewallet
-Run Jokewallet:
+Install Jokewallet:
 
     Git clone https://github.com/zots0127/Jokewallet.git
     cd Jokewallet
 
 ## Useage
+Run Jokewallet:
 
-python jokewallet.py
+    python jokewallet.py
 
-Then you can understand it.
+    Then you can understand it.
 
 ## License
 
