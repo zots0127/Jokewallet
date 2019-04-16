@@ -17,7 +17,7 @@ I was trying to use RPC, but I can't connect to my BTC core so change to this wa
 This is my second time use python.
 
 ## Implemented feature
-![Image text](https://raw.github.com/zots0127/repositpry/master/Jokewallet/img/menu.png
+![Image text](https://github.com/zots0127/Jokewallet/raw/master/img/menu.png
 1.Open my wallet       
 
 Use public api query address infomation
@@ -30,7 +30,7 @@ Generate a new key and new address
 
 Use funny terminal qrcode lib show qrcode in terminal,actully it can also  use an api but can't show without GUI
 
-![Image text](https://raw.github.com/zots0127/repositpry/master/Jokewallet/img/feature.png
+![Image text](https://github.com/zots0127/Jokewallet/raw/master/img/feature.png
 
 4.Show my transaction history   
 
