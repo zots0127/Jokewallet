@@ -1,84 +1,153 @@
 
-# Jokewallet 0.0.4
-You can create a offline wallet and do some operation.
+# JokeWallet 0.0.5
 
-## (send() need a privity api but apply it need 3~4days)
+一个简单但功能完整的比特币钱包管理工具，支持离线钱包创建和基本操作。
 
-If I have free time I will complete it and make a standalone installer for it~
+## ⚠️ 重要警告
 
-Or use Django make a web application and add the private_key protection.
+- **这是主网工具，不是测试网！**
+- **请妥善保管您的私钥，丢失后无法恢复！**
+- **建议仅在安全的离线环境中使用**
+- **本工具仅供学习和演示用途**
 
-I just know base64 and maybe cut the key and exchange the order?
+## 🚀 功能特性
 
-I will learn something about it .
+### 已实现功能
 
-I didn't get transaction api still now, so I can't do transaction now.
+![创建钱包](https://github.com/zots0127/Jokewallet/raw/master/img/create.png)
+![主菜单](https://github.com/zots0127/Jokewallet/raw/master/img/menu.png)
+![功能展示](https://github.com/zots0127/Jokewallet/raw/master/img/feature.png)
 
-## I was trying to use RPC, but I can't connect to my BTC core so change to this way.
+1. **📊 查看钱包信息**
+   - 使用公共API查询地址信息
+   - 显示余额、交易总数、收发总额
+   - 格式化的数据展示
 
-This is my second time use python.
+2. **🆕 创建新钱包**
+   - 生成安全的私钥和公钥
+   - 本地计算比特币地址（不依赖外部API）
+   - 自动保存钱包文件
 
-## Implemented feature
-![Image text](https://github.com/zots0127/Jokewallet/raw/master/img/create.png)\
-![Image text](https://github.com/zots0127/Jokewallet/raw/master/img/menu.png)\
-![Image text](https://github.com/zots0127/Jokewallet/raw/master/img/feature.png)\
-1.Open my wallet       
+3. **📱 显示地址二维码**
+   - 在终端中显示QR码
+   - 方便移动设备扫描
 
-Use public api query address infomation
+4. **📜 查看交易历史**
+   - 获取最近10笔交易记录
+   - 显示交易哈希、时间戳、金额信息
+   - 友好的格式化输出
 
-2.Create new wallet    
+5. **🔄 切换钱包**
+   - 支持多钱包管理
+   - 快速切换不同钱包
 
-Generate a new key and new address
+6. **❌ 安全退出**
+   - 优雅的程序退出机制
 
-3.Show my QR codd     
+### 🔧 技术改进 (v0.0.5)
 
-Use funny terminal qrcode lib show qrcode in terminal,actully it can also  use an api but can't show without GUI
+- ✅ **完整的错误处理**: 网络异常、文件操作、API错误等
+- ✅ **类型注解**: 提高代码可读性和维护性
+- ✅ **本地地址生成**: 不再依赖外部API生成地址
+- ✅ **安全的文件操作**: 使用上下文管理器和异常处理
+- ✅ **改进的用户界面**: 更友好的中文界面和emoji图标
+- ✅ **输入验证**: 钱包名称格式验证
+- ✅ **更好的数据展示**: JSON格式化和单位转换
 
+## 📦 安装依赖
 
+### 前提条件
+- Python 3.7 或更高版本
 
-4.Show my transaction history   
+### 安装方法
 
-Use public api query TX info but if don't have can't get right result
+1. **克隆仓库**
+   ```bash
+   git clone https://github.com/zots0127/Jokewallet.git
+   cd Jokewallet
+   ```
 
-5.Change a wallet
+2. **安装依赖**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Call another function to change Wallet
+   或者手动安装：
+   ```bash
+   pip install requests>=2.25.0
+   pip install ecdsa>=0.17.0
+   pip install qrcode_terminal>=0.8.0
+   pip install base58>=2.1.0
+   ```
 
-0.Exit
+3. **从PyPI安装** (即将支持)
+   ```bash
+   pip install Jokewallet
+   ```
 
-Exit
+## 🎯 使用方法
 
+### 启动程序
+```bash
+cd jokewallet
+python jokewallet.py
+```
 
-## Install Dependencies
-I don't want to teach how to install python3.7...
+### 基本操作流程
 
-But after install python3.7
+1. **首次使用**
+   - 输入钱包名称
+   - 选择创建新钱包
+   - 系统自动生成私钥、公钥和地址
+   - **重要**: 记录并安全保存显示的私钥
 
-You need install ~~these~~ :
+2. **日常使用**
+   - 输入已存在的钱包名称
+   - 选择相应功能进行操作
+   - 查看余额、交易历史等信息
 
+3. **多钱包管理**
+   - 可以创建多个不同名称的钱包
+   - 通过"切换钱包"功能在不同钱包间切换
 
+## 🔒 安全注意事项
 
-    pip install ecdsa
-    pip install requests
-    pip install qrcode_terminal
+1. **私钥安全**
+   - 私钥以明文形式保存在本地文件中
+   - 请确保在安全环境中运行
+   - 建议对私钥文件进行加密备份
 
+2. **网络安全**
+   - 程序需要联网获取区块链数据
+   - 仅发送地址信息，不会传输私钥
+   - 建议在可信网络环境中使用
 
-## Install Jokewallet
-Install Jokewallet:
-    https://pypi.org/manage/project/jokewallet/collaboration/ \
-    Git clone https://github.com/zots0127/Jokewallet.git \
-    cd Jokewallet/jokewallet \
-    ~~pip install Jokewallet~~  Will be fixed
+## 🚧 已知限制
 
-## Usage
-Run Jokewallet:
+- **发送功能**: 目前不支持发送比特币（需要私有API，申请需要3-4天）
+- **测试网**: 当前仅支持主网，不支持测试网
+- **加密存储**: 私钥文件未加密存储
+- **多重签名**: 不支持多重签名钱包
 
-    python jokewallet.py    
+## 🔮 未来计划
 
-    Input a wallet name ,if already exist will open wallet,then you can use it.
+- [ ] 添加私钥加密存储功能
+- [ ] 支持测试网络
+- [ ] 实现发送比特币功能
+- [ ] 创建独立安装程序
+- [ ] 开发Web应用版本
+- [ ] 添加多重签名支持
+- [ ] 支持其他加密货币
 
-    Otherwise create a new wallet.
+## 📄 许可证
 
-## License
+MIT License
 
-MIT
+## 👨‍💻 作者
+
+- **Jams Rich** - [zots0127@gmail.com](mailto:zots0127@gmail.com)
+- **GitHub**: [https://github.com/zots0127/Jokewallet](https://github.com/zots0127/Jokewallet)
+
+---
+
+**免责声明**: 本工具仅供学习和演示用途。使用者需自行承担使用风险，作者不对任何损失负责。

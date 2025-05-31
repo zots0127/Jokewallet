@@ -1,3 +1,4 @@
-requests
-ecdsa
-qrcode_terminal
+requests>=2.25.0
+ecdsa>=0.17.0
+qrcode_terminal>=0.8.0
+base58>=2.1.0
